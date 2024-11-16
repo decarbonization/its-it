@@ -13,6 +13,10 @@
     "./range": {
       "types": "./dist/lib/range.d.ts",
       "default": "./dist/lib/range.js"
+    },
+    "./repeat": {
+      "types": "./dist/lib/repeat.d.ts",
+      "default": "./dist/lib/repeat.js"
     }
   },
   "files": [
