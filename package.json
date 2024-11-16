@@ -9,6 +9,10 @@
     ".": {
       "types": "./dist/lib/index.d.ts",
       "default": "./dist/lib/index.js"
+    },
+    "./range": {
+      "types": "./dist/lib/range.d.ts",
+      "default": "./dist/lib/range.js"
     }
   },
   "files": [
