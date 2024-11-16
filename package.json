@@ -10,6 +10,10 @@
       "types": "./dist/lib/index.d.ts",
       "default": "./dist/lib/index.js"
     },
+    "./fill": {
+      "types": "./dist/lib/fill.d.ts",
+      "default": "./dist/lib/fill.js"
+    },
     "./range": {
       "types": "./dist/lib/range.d.ts",
       "default": "./dist/lib/range.js"
