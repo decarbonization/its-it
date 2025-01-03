@@ -29,7 +29,7 @@ export function fill<T>(quantity: number, factory: (index: number, previous: T |
     if (quantity < 0) {
         throw new RangeError(`Cannot fill element a negative number of times`);
     }
-    return (function*() {
+    return (function* fillIterator() {
         let previous: T | undefined = undefined;
         for (let i = 0; i < quantity; i++) {
             const current = factory(i, previous);

@@ -31,7 +31,7 @@ export function range(start: number, end: number, stepOrDefault?: number): Itera
         if (step >= 0) {
             throw new RangeError(`Invalid step ${step} for incrementing range`);
         }
-        return (function*() {
+        return (function* rangeIterator() {
             for (let i = start; i > end; i += step) {
                 yield i;
             }
@@ -41,7 +41,7 @@ export function range(start: number, end: number, stepOrDefault?: number): Itera
         if (step <= 0) {
             throw new RangeError(`Invalid step ${step} for decrementing range`);
         }
-        return (function*() {
+        return (function* rangeIterator() {
             for (let i = start; i < end; i += step) {
                 yield i;
             }

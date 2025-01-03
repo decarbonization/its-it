@@ -28,7 +28,7 @@ export function repeat<T>(times: number, element: T): Iterable<T> {
     if (times < 0) {
         throw new RangeError(`Cannot repeat element a negative number of times`);
     }
-    return (function*() {
+    return (function* repeatIterator() {
         for (let i = 0; i < times; i++) {
             yield element;
         }
