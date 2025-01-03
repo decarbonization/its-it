@@ -25,7 +25,7 @@
  * @param factory A function which will create the elements.
  * Accepts the index of the element and the previous element.
  */
-export function fill<T>(quantity: number, factory: (index: number, previous: T | undefined) => T): Iterable<T> {
+export default function fill<T>(quantity: number, factory: (index: number, previous: T | undefined) => T): Iterable<T> {
     if (quantity < 0) {
         throw new RangeError(`Cannot fill element a negative number of times`);
     }

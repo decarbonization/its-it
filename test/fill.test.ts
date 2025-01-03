@@ -18,7 +18,7 @@
  */
 
 import { describe, expect, it } from "@jest/globals";
-import { fill } from "../lib/fill";
+import fill from "../lib/fill";
 
 describe("fill", () => {
     it("should fill the element", () => {

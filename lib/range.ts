@@ -25,7 +25,7 @@
  * @param end The value to end the range. Not included in the sequence.
  * @param stepOrDefault The amount to step between each value in the range.
  */
-export function range(start: number, end: number, stepOrDefault?: number): Iterable<number> {
+export default function range(start: number, end: number, stepOrDefault?: number): Iterable<number> {
     if (start > end) {
         const step = stepOrDefault ?? -1
         if (step >= 0) {

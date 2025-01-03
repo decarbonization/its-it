@@ -24,7 +24,7 @@
  * @param times The number of times to repeat the element.
  * @param element The element to repeat.
  */
-export function repeat<T>(times: number, element: T): Iterable<T> {
+export default function repeat<T>(times: number, element: T): Iterable<T> {
     if (times < 0) {
         throw new RangeError(`Cannot repeat element a negative number of times`);
     }
