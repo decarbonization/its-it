@@ -10,9 +10,25 @@
       "types": "./dist/lib/index.d.ts",
       "default": "./dist/lib/index.js"
     },
+    "./empty": {
+      "types": "./dist/lib/empty.d.ts",
+      "default": "./dist/lib/empty.js"
+    },
+    "./every": {
+      "types": "./dist/lib/every.d.ts",
+      "default": "./dist/lib/every.js"
+    },
     "./fill": {
       "types": "./dist/lib/fill.d.ts",
       "default": "./dist/lib/fill.js"
+    },
+    "./filter": {
+      "types": "./dist/lib/filter.d.ts",
+      "default": "./dist/lib/filter.js"
+    },
+    "./map": {
+      "types": "./dist/lib/map.d.ts",
+      "default": "./dist/lib/map.js"
     },
     "./range": {
       "types": "./dist/lib/range.d.ts",
@@ -21,6 +37,10 @@
     "./repeat": {
       "types": "./dist/lib/repeat.d.ts",
       "default": "./dist/lib/repeat.js"
+    },
+    "./some": {
+      "types": "./dist/lib/some.d.ts",
+      "default": "./dist/lib/some.js"
     }
   },
   "files": [
