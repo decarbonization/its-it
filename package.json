@@ -30,6 +30,10 @@
       "types": "./dist/lib/map.d.ts",
       "default": "./dist/lib/map.js"
     },
+    "./only-one": {
+      "types": "./dist/lib/only-one.d.ts",
+      "default": "./dist/lib/only-one.js"
+    },
     "./range": {
       "types": "./dist/lib/range.d.ts",
       "default": "./dist/lib/range.js"
