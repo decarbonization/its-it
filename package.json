@@ -30,6 +30,10 @@
       "types": "./dist/lib/map.d.ts",
       "default": "./dist/lib/map.js"
     },
+    "./nullable": {
+      "types": "./dist/lib/nullable.d.ts",
+      "default": "./dist/lib/nullable.js"
+    },
     "./only-one": {
       "types": "./dist/lib/only-one.d.ts",
       "default": "./dist/lib/only-one.js"
