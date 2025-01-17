@@ -18,7 +18,7 @@
  */
 
 import { describe, expect, it } from "@jest/globals";
-import isEmpty, { PossiblyEmptyContainer } from "../lib/empty";
+import { isEmpty, PossiblyEmptyContainer } from "../lib/empty";
 
 describe("empty", () => {
     it("should return false for falsey values", () => {

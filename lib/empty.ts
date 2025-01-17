@@ -31,7 +31,7 @@ export type PossiblyEmptyContainer =
  * @param container A container like a string, array, set, etc.
  * @returns `true` if `container` has no elements; `false` otherwise.
  */
-export default function isEmpty(container: PossiblyEmptyContainer): boolean {
+export function isEmpty(container: PossiblyEmptyContainer): boolean {
     switch (typeof container) {
         case 'string':
             return container.length === 0;

@@ -23,7 +23,7 @@
  * @param elements The elements to check.
  * @param check A function which returns whether an element passes.
  */
-export default function some<T>(elements: Iterable<T>, check: (element: T) => boolean): boolean {
+export function some<T>(elements: Iterable<T>, check: (element: T) => boolean): boolean {
     for (const element of elements) {
         if (check(element)) {
             return true;

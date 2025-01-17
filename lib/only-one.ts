@@ -25,7 +25,7 @@
  * @returns The single item of `items`.
  * @throws A `RangeError` if `items.length !== 1`
  */
-export default function onlyOne<T>(items: ArrayLike<T>): T {
+export function onlyOne<T>(items: ArrayLike<T>): T {
     if (items.length !== 1) {
         throw new RangeError(`Expected exactly one item in ${items}`)
     }

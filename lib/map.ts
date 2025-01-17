@@ -24,7 +24,7 @@
  * @param elements The elements to transform.
  * @param transform A function which returns a transformed element.
  */
-export default function map<T, U>(elements: Iterable<T>, transform: (element: T, offset: number) => U): Iterable<U> {
+export function map<T, U>(elements: Iterable<T>, transform: (element: T, offset: number) => U): Iterable<U> {
     return (function* mapIterator() {
         let offset = 0;
         for (const element of elements) {

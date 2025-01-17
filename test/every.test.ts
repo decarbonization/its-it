@@ -18,7 +18,7 @@
  */
 
 import { describe, expect, it } from "@jest/globals";
-import every from "../lib/every";
+import { every } from "../lib/every";
 
 describe("every", () => {
     it("should return true when all elements pass check", () => {

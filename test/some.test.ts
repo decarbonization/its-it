@@ -18,7 +18,7 @@
  */
 
 import { describe, expect, it } from "@jest/globals";
-import some from "../lib/some";
+import { some } from "../lib/some";
 
 describe("some", () => {
     it("should return true when at least one element passes check", () => {

@@ -18,8 +18,8 @@
  */
 
 import { describe, expect, it } from "@jest/globals";
-import map from "../lib/map";
-import range from "../lib/range";
+import { map } from "../lib/map";
+import { range } from "../lib/range";
 
 describe("map", () => {
     it("should transform every element", () => {

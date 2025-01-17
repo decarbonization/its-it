@@ -18,7 +18,7 @@
  */
 
 import { describe, expect, it } from "@jest/globals";
-import onlyOne from "../lib/only-one";
+import { onlyOne } from "../lib/only-one";
 
 describe("onlyOne", () => {
     it("should throw an error with zero items", () => {

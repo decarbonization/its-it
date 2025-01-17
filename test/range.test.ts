@@ -18,7 +18,7 @@
  */
 
 import { describe, expect, it } from "@jest/globals";
-import range from "../lib/range";
+import { range } from "../lib/range";
 
 describe("range", () => {
     it("should count up", () => {

@@ -18,8 +18,8 @@
  */
 
 import { describe, expect, it } from "@jest/globals";
-import filter from "../lib/filter";
-import range from "../lib/range";
+import { filter } from "../lib/filter";
+import { range } from "../lib/range";
 
 describe("filter", () => {
     it("should only include elements which pass check", () => {

@@ -24,7 +24,7 @@
  * @param elements The elements to filter.
  * @param check A function which returns whether an element is included.
  */
-export default function filter<T>(elements: Iterable<T>, check: (element: T) => boolean): Iterable<T> {
+export function filter<T>(elements: Iterable<T>, check: (element: T) => boolean): Iterable<T> {
     return (function* filterIterator() {
         for (const element of elements) {
             if (check(element)) {
