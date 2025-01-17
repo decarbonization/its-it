@@ -42,6 +42,10 @@
       "types": "./dist/lib/repeat.d.ts",
       "default": "./dist/lib/repeat.js"
     },
+    "./segment": {
+      "types": "./dist/lib/segment.d.ts",
+      "default": "./dist/lib/segment.js"
+    },
     "./some": {
       "types": "./dist/lib/some.d.ts",
       "default": "./dist/lib/some.js"
